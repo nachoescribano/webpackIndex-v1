@@ -1,0 +1,51 @@
+{
+  "lang": "es",
+  "title": "Tacos de expansión TN4S | INDEX fafd",
+  "description": "Tacos de Nylon® universales rápidos, fáciles de usar y versátiles en múltiples materiales base",
+  "keywords": "Tacos, TN4S, Index®",
+  "index": "Inicio",
+  "characteristics": "Características",
+  "desing": "Diseño",
+  "gamma": "Gama",
+  "aplications": "Aplicaciones",
+  "instalation": "Instalación",
+  "documentattion": "Documentación",
+  "desing-geometry": "Diseño y geometría",
+  "view-gama": "Ver gama",
+  "download-resources": "Descargar recursos",
+  "information": "Información",
+  "main-section": {
+    "title": "Tacos de expansión TN4S",
+    "subtitle": "Versátil y fuerte en múltiples materiales",
+    "image-alt": "Mano de operario protegida con guante y sosteniendo caja tacos TN4S",
+    "p-1": "Los tacos de expansión de Nylon TN4S de INDEX garantizan una  fijación homogénea sobre el material base gracias a la expansión de sus 4 segmentos. Son perfectos para realizar fijaciones polivalentes y seguras en todo tipo de materiales, ya sean materiales macizos como hormigón, piedra ladrillo macizo, ladrillo de adobe, o materiales huecos como hormigón hueco, ladrillo hueco y cartón yeso. Su cuidado diseño permite que al expandirse realice una distribución de forma homogénea sobre el material base. Fabricados en Nailon de máxima calidad, garantizan una instalación con las máximas garantías.",
+    "p-2": "Los TN4S están especialmente recomendados para la instalación, por ejemplo, de lámparas, cuadros, regletas, rodapiés, así como estanterías o armarios. Disponibles en variantes con collarín, que impiden que el taco se hunda en el taladro, así como la versión larga para fijaciones con mayor profundidad de broca."
+  },
+  "gama-section": {
+    "title": " Gama TN4S | Taco de Nylon<sup>®</sup> universal",
+    "cards-more-info": "Más información",
+    "cards": [
+      {
+        "title": "TN4S",
+        "image-alt": "Taco de Nylon® TN4S",
+        "subtitle": "Taco de Nylon<sup>®</sup>",
+        "href": "https://www.indexfix.com/producto/10663-TN4S-taco",
+        "image-src": "assets/images/T4S.webp"
+      },
+      {
+        "title": "TN4S-A",
+        "image-alt": "Taco de Nylon® TN4S-A",
+        "subtitle": "Taco con collarín ancho",
+        "href": "https://www.indexfix.com/producto/974-TN4S-A-taco-con-collarin",
+        "image-src": "assets/images/T4S.webp"
+      },
+      {
+        "title": "TN4S-L",
+        "image-alt": "Taco de Nylon® TN4S-L",
+        "subtitle": "Taco largo",
+        "href": "https://www.indexfix.com/producto/11504-TN4S-L-taco-largo",
+        "image-src": "assets/images/T4S.webp"
+      }
+    ]
+  }
+}
