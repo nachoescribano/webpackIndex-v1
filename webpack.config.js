@@ -1,6 +1,6 @@
 const { merge } = require("lodash");
 const path = require("path");
-const filewatcherPlugin = require("filewatcher-webpack-plugin");
+// const filewatcherPlugin = require("filewatcher-webpack-plugin");
 const HandlebarsPlugin = require("handlebars-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
@@ -31,7 +31,7 @@ module.exports = {
     // compress: true,
     port: 9000,
   },
-  watch: true,
+  //nwatch: true,
   watchOptions: {
     ignored: /node_modules/,
   },
@@ -131,11 +131,11 @@ module.exports = {
       // onBeforeSave: function (Handlebars, resultHtml, filename) {},
       // onDone: function (Handlebars, filename) {}
     }),
-    new filewatcherPlugin({
-      watchFileRegex: ["/src/languages/es.json"],
-      onReadyCallback: () => console.log("Yo Im ready"),
-      usePolling: false,
-      ignored: "/node_modules/",
-    }),
+    //new filewatcherPlugin({
+    //  watchFileRegex: ["/src/languages/es.json"],
+    //  onReadyCallback: () => console.log("Yo Im ready"),
+    //  usePolling: false,
+    //  ignored: "/node_modules/",
+    //}),
   ],
 };

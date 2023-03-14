@@ -1,6 +1,6 @@
 {
   "lang": "es",
-  "title": "Tacos de expansión TN4S | INDEX fafd",
+  "title": "Tacos de expansión TN4S | INDEX",
   "description": "Tacos de Nylon® universales rápidos, fáciles de usar y versátiles en múltiples materiales base",
   "keywords": "Tacos, TN4S, Index®",
   "index": "Inicio",
@@ -9,7 +9,7 @@
   "gamma": "Gama",
   "aplications": "Aplicaciones",
   "instalation": "Instalación",
-  "documentattion": "Documentación",
+  "documentation": "Documentación",
   "desing-geometry": "Diseño y geometría",
   "view-gama": "Ver gama",
   "download-resources": "Descargar recursos",
@@ -47,5 +47,39 @@
         "image-src": "assets/images/T4S.webp"
       }
     ]
+  },
+  "design-section": {
+    "title": "Diseño y geometría",
+    "modules": [{
+      "image-src": "assets/images/diseno-1.webp",
+      "image-alt": "Detalle anclaje TN4S diseño anti-spin y 8 zonas anti-giro",
+      "content": "<strong>El diseño anti-spin y las 8 zonas anti-giro</strong> aportan un mayor agarre al material base y evitan que el taco gire durante la instalación."
+    },
+    {
+      "image-src": "assets/images/diseno-4.webp",
+      "image-alt": "Detalle del material resistente, elástico y flexible del taco de Nylon® TN4S",
+      "content": "<strong>Material resistente, elástico y flexible</strong> que permite una perfecta expansión del taco."
+    },
+    {
+      "image-src": "assets/images/diseno-5.webp",
+      "image-alt": "Vista seccionada de pared con soporte anclado con anclaje y taco de Nylon® TN4S",
+      "content": "<strong>Máximas prestaciones</strong>. Rápida expansión multidireccional y controlada en el material base."
+    },
+    {
+      "image-src": "assets/images/diseno-6.webp",
+      "image-alt": "Detalle anclaje TN4S diseño collarín",
+      "content": "<strong>El collarín</strong> evita que el taco se cuele dentro del material base. Versión TN4S-A con collarín extra ancho."
+    },
+    {
+      "image-src": "assets/images/diseno-3.webp",
+      "image-alt": "Detalle anclaje TN4S diseño estrias inferiores",
+      "content": "<strong>Las estrías interiores</strong> favorecen la posición del tornillo."
+    },
+    {
+      "image-src": "assets/images/diseno-2.webp",
+      "image-alt": "Detalle anclaje TN4S diseño con marcaje exterior",
+      "content": "<strong>Marcaje exterior</strong> que identifica el diámetro de la broca y del tornillo."
+    }
+  ]
   }
 }
