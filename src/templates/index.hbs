@@ -38,7 +38,7 @@
           <div class="swiper-container js-swiper-container-1">
             <div class="index-cards-container">
               {{#each gama-section.cards}}
-                <article class="index-card">
+                <a class="index-card index-card--links"  href="{{this.href}}"  target="_blank">
                   <div class="index-card__container">
                     <div class="index-card__body">
                       <h2
@@ -53,17 +53,15 @@
                         {{this.subtitle}}
                       </p>
                       <footer class="index-card__footer">
-                        <a
-                          href="{{this.href}}"
-                          class="index-card__link"
-                          target="_blank"
+                        <p
+                          class="index-card__link index-card__link--footer"
                         >{{../gama-section.cards-more-info}}<i
                             class="fas fa-arrow-right index-card__link-icon"
-                          ></i></a>
+                          ></i></p>
                       </footer>
                     </div>
                   </div>
-                </article>
+                </a>
               {{/each}}
             </div>
           </div>
