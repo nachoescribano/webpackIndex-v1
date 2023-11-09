@@ -1,0 +1,33 @@
+<a id="video-banner"></a>
+{{#with video-banner}}
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-12 col-lg-6 col-xl-5 d-flex flex-column align-items-center"
+        >
+          <img src="{{image-src}}" class="mb-4" alt="{{image-alt}}" />
+          <h2 class="mb-3 text-center">
+            {{title}}
+          </h2>
+          <p class="text-center mb-5">
+            {{content}}
+          </p>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-6 offset-xl-1">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              width="560"
+              height="315"
+              src="{{video-url}}"
+              title="{{video-title}}"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{/with}}
